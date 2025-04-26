@@ -86,7 +86,14 @@ class Trainer:
         for inputs, targets in pbar:
             inputs = inputs.to(self.device)
             targets = targets.to(self.device)
-            targets = targets.argmax(dim=1)
+
+            # Squeeze the extra dimension from targets if needed
+            if targets.dim() > 1 and targets.size(1) == 1:
+                targets = targets.squeeze(1)
+            
+            print(targets)
+
+            # targets = targets.argmax(dim=1)
             
             # Zero the parameter gradients
             self.optimizer.zero_grad()
