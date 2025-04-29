@@ -1,0 +1,36 @@
+2025-04-26 11:57:25,075 - INFO - Starting training for 10 epochs
+2025-04-26 12:15:00,523 - INFO - Validation metrics - accuracy: 0.8658, auc: 0.9516, precision: 0.9448, recall: 0.7768, f1: 0.8526
+2025-04-26 12:15:00,525 - INFO - Epoch 1/10 - Loss: 0.2344, Auc: 0.9516, Time: 1055.45s
+2025-04-26 12:15:00,525 - INFO - New best auc: 0.9516
+2025-04-26 12:15:00,704 - INFO - Model checkpoint saved to ./output/pcam_steerable_cnn_20250426_115713/checkpoints/best_model.pth
+2025-04-26 12:32:36,039 - INFO - Validation metrics - accuracy: 0.8670, auc: 0.9520, precision: 0.9547, recall: 0.7704, f1: 0.8527
+2025-04-26 12:32:36,039 - INFO - Epoch 2/10 - Loss: 0.1523, Auc: 0.9520, Time: 1055.33s
+2025-04-26 12:32:36,039 - INFO - New best auc: 0.9520
+2025-04-26 12:32:36,193 - INFO - Model checkpoint saved to ./output/pcam_steerable_cnn_20250426_115713/checkpoints/best_model.pth
+2025-04-26 12:50:14,445 - INFO - Validation metrics - accuracy: 0.8757, auc: 0.9619, precision: 0.9568, recall: 0.7867, f1: 0.8635
+2025-04-26 12:50:14,446 - INFO - Epoch 3/10 - Loss: 0.1220, Auc: 0.9619, Time: 1058.25s
+2025-04-26 12:50:14,446 - INFO - New best auc: 0.9619
+2025-04-26 12:50:14,596 - INFO - Model checkpoint saved to ./output/pcam_steerable_cnn_20250426_115713/checkpoints/best_model.pth
+2025-04-26 13:07:49,356 - INFO - Validation metrics - accuracy: 0.8493, auc: 0.9446, precision: 0.9579, recall: 0.7304, f1: 0.8288
+2025-04-26 13:07:49,356 - INFO - Epoch 4/10 - Loss: 0.0984, Auc: 0.9446, Time: 1054.76s
+2025-04-26 13:07:49,356 - INFO - No improvement for 1 epochs
+2025-04-26 13:25:25,336 - INFO - Validation metrics - accuracy: 0.8383, auc: 0.9387, precision: 0.9584, recall: 0.7070, f1: 0.8137
+2025-04-26 13:25:25,336 - INFO - Epoch 5/10 - Loss: 0.0785, Auc: 0.9387, Time: 1055.98s
+2025-04-26 13:25:25,336 - INFO - No improvement for 2 epochs
+2025-04-26 13:42:59,652 - INFO - Validation metrics - accuracy: 0.8373, auc: 0.9386, precision: 0.9669, recall: 0.6982, f1: 0.8109
+2025-04-26 13:42:59,652 - INFO - Epoch 6/10 - Loss: 0.0631, Auc: 0.9386, Time: 1054.32s
+2025-04-26 13:42:59,652 - INFO - No improvement for 3 epochs
+2025-04-26 14:00:36,932 - INFO - Validation metrics - accuracy: 0.8519, auc: 0.9415, precision: 0.9454, recall: 0.7467, f1: 0.8344
+2025-04-26 14:00:36,932 - INFO - Epoch 7/10 - Loss: 0.0519, Auc: 0.9415, Time: 1057.28s
+2025-04-26 14:00:36,932 - INFO - No improvement for 4 epochs
+2025-04-26 14:18:12,118 - INFO - Validation metrics - accuracy: 0.8688, auc: 0.9463, precision: 0.9435, recall: 0.7843, f1: 0.8566
+2025-04-26 14:18:12,119 - INFO - Epoch 8/10 - Loss: 0.0434, Auc: 0.9463, Time: 1055.19s
+2025-04-26 14:18:12,120 - INFO - No improvement for 5 epochs
+2025-04-26 14:35:49,712 - INFO - Validation metrics - accuracy: 0.8557, auc: 0.9362, precision: 0.9575, recall: 0.7442, f1: 0.8375
+2025-04-26 14:35:49,714 - INFO - Epoch 9/10 - Loss: 0.0388, Auc: 0.9362, Time: 1057.59s
+2025-04-26 14:35:49,714 - INFO - No improvement for 6 epochs
+2025-04-26 14:53:25,188 - INFO - Validation metrics - accuracy: 0.8474, auc: 0.9417, precision: 0.9600, recall: 0.7247, f1: 0.8259
+2025-04-26 14:53:25,189 - INFO - Epoch 10/10 - Loss: 0.0150, Auc: 0.9417, Time: 1055.48s
+2025-04-26 14:53:25,189 - INFO - No improvement for 7 epochs
+2025-04-26 14:53:25,189 - INFO - Training completed in 176.00 minutes
+2025-04-26 14:53:25,189 - INFO - Best auc: 0.9619
